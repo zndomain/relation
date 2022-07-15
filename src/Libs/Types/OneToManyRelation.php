@@ -7,7 +7,7 @@ use ZnCore\Collection\Interfaces\Enumerable;
 use ZnCore\Collection\Libs\Collection;
 use ZnDomain\Domain\Interfaces\FindAllInterface;
 use ZnCore\Code\Factories\PropertyAccess;
-use ZnDomain\Entity\Helpers\CollectionHelper;
+use ZnCore\Collection\Helpers\CollectionHelper;
 use ZnDomain\Query\Entities\Query;
 use ZnDomain\Relation\Interfaces\RelationInterface;
 use ZnDomain\Relations\interfaces\CrudRepositoryInterface;

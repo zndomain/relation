@@ -6,7 +6,7 @@ use Exception;
 use Symfony\Component\Validator\Constraint;
 use Symfony\Component\Validator\Exception\UnexpectedValueException;
 use ZnCore\Container\Helpers\ContainerHelper;
-use ZnDomain\Entity\Exceptions\NotFoundException;
+use ZnCore\Contract\Common\Exceptions\NotFoundException;
 use ZnDomain\EntityManager\Interfaces\EntityManagerInterface;
 use ZnDomain\Repository\Interfaces\FindOneInterface;
 use ZnDomain\Validator\Constraints\BaseValidator;

@@ -5,7 +5,7 @@ namespace ZnDomain\Relation\Libs\Types;
 use yii\di\Container;
 use ZnCore\Collection\Interfaces\Enumerable;
 use ZnCore\Code\Factories\PropertyAccess;
-use ZnDomain\Entity\Helpers\CollectionHelper;
+use ZnCore\Collection\Helpers\CollectionHelper;
 use ZnDomain\Relation\Interfaces\RelationInterface;
 use ZnDomain\Relations\interfaces\CrudRepositoryInterface;
 
