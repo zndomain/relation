@@ -6,9 +6,9 @@ use yii\di\Container;
 use ZnCore\Collection\Interfaces\Enumerable;
 use ZnCore\Collection\Libs\Collection;
 use ZnDomain\Domain\Interfaces\FindAllInterface;
-use ZnCore\Entity\Factories\PropertyAccess;
-use ZnCore\Entity\Helpers\CollectionHelper;
-use ZnCore\Query\Entities\Query;
+use ZnDomain\Entity\Factories\PropertyAccess;
+use ZnDomain\Entity\Helpers\CollectionHelper;
+use ZnDomain\Query\Entities\Query;
 use ZnDomain\Relation\Interfaces\RelationInterface;
 use ZnDomain\Relations\interfaces\CrudRepositoryInterface;
 

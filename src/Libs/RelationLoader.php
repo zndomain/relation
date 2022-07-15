@@ -6,7 +6,7 @@ use InvalidArgumentException;
 use ZnCore\Arr\Helpers\ArrayHelper;
 use ZnCore\Collection\Interfaces\Enumerable;
 use ZnCore\Instance\Helpers\ClassHelper;
-use ZnCore\Query\Entities\Query;
+use ZnDomain\Query\Entities\Query;
 use ZnDomain\Relation\Interfaces\RelationInterface;
 use ZnDomain\Repository\Interfaces\RelationConfigInterface;
 use ZnDomain\Repository\Interfaces\RepositoryInterface;
